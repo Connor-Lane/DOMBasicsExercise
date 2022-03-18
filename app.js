@@ -105,9 +105,8 @@ console.log(avengers);
 console.log(`===================`);
 
 // 14b
-let span;
 for (s of avengers) {
-    span = document.createElement(`span`);
+    const span = document.createElement(`span`);
     span.innerText = s + ` `;
     body.append(span);
     console.dir(span);
